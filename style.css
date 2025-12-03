@@ -7,12 +7,11 @@
 
 body {
     min-height: 100vh;
-    min-width: 100vw;
     background: linear-gradient(135deg, #1e3c72, #2a5298);
     color: #fff;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
 }
 
 nav {
@@ -38,7 +37,8 @@ nav h1 {
 }
 
 #counter {
-    font-size: 2rem;
+    margin-top: 72px;
+    font-size: 3rem;
     font-weight: 700;
     padding: 24px 48px;
     border-radius: 16px;
@@ -46,6 +46,8 @@ nav h1 {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
     text-align: center;
     min-width: 200px;
+    letter-spacing: 1px;
+    backdrop-filter: blur(6px);
 }
 
 .controls {
